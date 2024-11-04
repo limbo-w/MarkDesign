@@ -14,6 +14,9 @@ importers:
       '@lottiefiles/lottie-player':
         specifier: ^1.7.1
         version: 1.7.1
+      '@popperjs/core':
+        specifier: ^2.11.8
+        version: 2.11.8
       axios:
         specifier: ^1.2.2
         version: 1.7.7
@@ -1132,6 +1135,9 @@ packages:
 
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==, tarball: https://registry.npmmirror.com/@polka/url/-/url-1.0.0-next.28.tgz}
+
+  '@popperjs/core@2.11.8':
+    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==, tarball: https://registry.npmmirror.com/@popperjs/core/-/core-2.11.8.tgz}
 
   '@rollup/plugin-alias@5.1.1':
     resolution: {integrity: sha512-PR9zDb+rOzkRb2VD+EuKB7UC41vU5DIwZ5qqCpk0KJudcWAyi8rvYOhS7+L5aZCspw1stTViLgN5v6FF1p5cgQ==, tarball: https://registry.npmmirror.com/@rollup/plugin-alias/-/plugin-alias-5.1.1.tgz}
@@ -6617,6 +6623,8 @@ snapshots:
   '@pkgr/core@0.1.1': {}
 
   '@polka/url@1.0.0-next.28': {}
+
+  '@popperjs/core@2.11.8': {}
 
   '@rollup/plugin-alias@5.1.1(rollup@4.24.0)':
     optionalDependencies:
