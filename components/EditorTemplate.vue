@@ -146,66 +146,7 @@ const textList = ref([])
 const materialQueryModel = ref("")
 const materialQueryLoading = ref(false)
 const materialQueryState = reactive({meta: {limit: 10, next: 0, hasNext: true}, active: "input"})
-const materialList = ref([
-    {
-        "title": "daydaymoment标志Logo",
-        "source": {
-            "preview": "http://localhost:3334/template/material/daydaymoment.png??imageView2/2/w/200",
-            "config": [
-                {
-                    "x": 100,
-                    "y": 100,
-                    "url": "http://localhost:3334/template/material/daydaymoment.png?imageslim",
-                    "draggable": true
-                }
-            ]
-        }
-    },
-    {
-        "title": "太空火箭上升宇航员",
-        "source": {
-            "preview": "http://localhost:3334/template/material/2023020615.png?imageView2/2/w/200",
-            "config": [
-                {
-                    "x": 100,
-                    "y": 100,
-                    "url": "http://localhost:3334/template/material/2023020615.png?imageslim",
-                    "draggable": true
-                }
-            ]
-        }
-    },
-    {
-        "title": "撒花开心小女孩可爱",
-        "source": {
-            "preview": "http://localhost:3334/template/material/2023020619.png?imageView2/2/w/200",
-            "config": [
-                {
-                    "x": 100,
-                    "y": 100,
-                    "url": "http://localhost:3334/template/material/2023020619.png?imageslim",
-                    "draggable": true
-                }
-            ]
-        }
-    },
-    {
-        "title": "日历便签提示工作",
-        "source": {
-            "preview": "http://localhost:3334/template/material/2023020620.png?imageView2/2/w/200",
-            "config": [
-                {
-                    "x": 100,
-                    "y": 100,
-                    "url": "http://localhost:3334/template/material/2023020620.png?imageslim",
-                    "draggable": true
-                }
-            ]
-        }
-    }
-])
-
-// const materialList = ref([])
+const materialList = ref([])
 
 const activeTab = ref("")
 
